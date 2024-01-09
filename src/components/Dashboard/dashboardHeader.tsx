@@ -12,7 +12,7 @@ export default function DashboardHeader() {
 						Payments
 					</div>
 					<div>
-						<img src={howItWorksIcon}></img>
+						<img src={howItWorksIcon} alt="hover icon"></img>
 					</div>
 					<div className="text-black30 ml-1 text-custom-small font-regular">
 						How it works
@@ -21,7 +21,7 @@ export default function DashboardHeader() {
 
 				<div className="w-96 h-10 bg-black95 rounded-md flex items-center">
 					<div>
-						<img className="ml-4 mr-2" src={searchIcon}></img>
+						<img className="ml-4 mr-2" src={searchIcon} alt="search icon"></img>
 					</div>
 					<div className="text-black50 text-custom-medium text-regular">
 						Search features, tutorials, etc.
@@ -30,12 +30,12 @@ export default function DashboardHeader() {
 				<div className="flex">
 					<div>
 						<div className="w-10 h-10 bg-black90 rounded-full flex items-center justify-center mr-3">
-							<img src={chatIcon}></img>
+							<img src={chatIcon} alt="chat icon"></img>
 						</div>
 					</div>
 					<div>
 						<div className="w-10 h-10 bg-black90 rounded-full flex items-center justify-center mr-8">
-							<img src={polygonIcon}></img>
+							<img src={polygonIcon} alt="drop down icon"></img>
 						</div>
 					</div>
 				</div>

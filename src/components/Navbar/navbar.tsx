@@ -13,6 +13,7 @@ export default function Navbar() {
 							<img
 								className="company-image w-10 h-10 mr-3 rounded-lg"
 								src={companyPic}
+								alt="company picture"
 							></img>
 							<div className="company-details mr-12">
 								<div className="company-name text-custom-medium font-medium">
@@ -23,7 +24,11 @@ export default function Navbar() {
 								</div>
 							</div>
 							<div>
-								<img className="icon" src={chevronDownNav}></img>
+								<img
+									className="icon"
+									src={chevronDownNav}
+									alt="more info about company icon"
+								></img>
 							</div>
 						</div>
 						<div className="pages-container flex flex-col">
@@ -51,7 +56,7 @@ export default function Navbar() {
 				</div>
 				<div className="flex mx-4 mb-4 py-2 justify-center items-center bg-navbarBlack rounded">
 					<div className="mr-3 bg-pagebgColor p-2 ml-1 rounded">
-						<img src={navbarWallet}></img>
+						<img src={navbarWallet} alt="wallet icon"></img>
 					</div>
 					<div>
 						<div>Available Credits</div>

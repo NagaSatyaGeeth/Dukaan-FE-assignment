@@ -8,7 +8,7 @@ export default function dropdown() {
 					Last Month
 				</div>
 				<div>
-					<img src={chevronDown}></img>
+					<img src={chevronDown} alt="last month drop down icon"></img>
 				</div>
 			</div>
 		</>
