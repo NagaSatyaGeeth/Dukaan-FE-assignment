@@ -1,4 +1,4 @@
-import tableData from "/src/Data/tableData.js";
+import tableData from "../../Data/tableData.ts";
 
 export default function table() {
 	return (

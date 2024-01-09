@@ -1,4 +1,4 @@
-import navbarMenuData from "/src/Data/navbardata.js";
+import navbarMenuData from "../../Data/navbardata.ts";
 
 export default function Navbar() {
 	return (
