@@ -1,4 +1,7 @@
 import navbarMenuData from "../../Data/navbardata.ts";
+import companyPic from "/src/assets/companypic.png";
+import chevronDownNav from "/src/assets/icons/Vector.svg";
+import navbarWallet from "/src/assets/navbarIcons/Navbar-wallet.svg";
 
 export default function Navbar() {
 	return (
@@ -9,7 +12,7 @@ export default function Navbar() {
 						<div className="company-info  flex  items-center mb-8 ml-2">
 							<img
 								className="company-image w-10 h-10 mr-3 rounded-lg"
-								src="/src/assets/companypic.png"
+								src={companyPic}
 							></img>
 							<div className="company-details mr-12">
 								<div className="company-name text-custom-medium font-medium">
@@ -20,7 +23,7 @@ export default function Navbar() {
 								</div>
 							</div>
 							<div>
-								<img className="icon" src="src/assets/icons/Vector.svg"></img>
+								<img className="icon" src={chevronDownNav}></img>
 							</div>
 						</div>
 						<div className="pages-container flex flex-col">
@@ -36,7 +39,7 @@ export default function Navbar() {
 											className="page-icon ml-4 mr-4"
 											src={item.icon}
 											alt={`${item.name} icon`}
-										/>
+										></img>
 									</div>
 									<div className="page-name text-custom-base font-medium">
 										{item.name}
@@ -48,7 +51,7 @@ export default function Navbar() {
 				</div>
 				<div className="flex mx-4 mb-4 py-2 justify-center items-center bg-navbarBlack rounded">
 					<div className="mr-3 bg-pagebgColor p-2 ml-1 rounded">
-						<img src="src/assets/navbarIcons/Navbar-wallet.svg"></img>
+						<img src={navbarWallet}></img>
 					</div>
 					<div>
 						<div>Available Credits</div>

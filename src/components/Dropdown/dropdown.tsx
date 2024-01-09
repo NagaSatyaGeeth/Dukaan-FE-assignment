@@ -1,3 +1,5 @@
+import chevronDown from "/src/assets/icons/Path 2 Copy.svg";
+
 export default function dropdown() {
 	return (
 		<>
@@ -6,7 +8,7 @@ export default function dropdown() {
 					Last Month
 				</div>
 				<div>
-					<img src="src/assets/icons/Path 2 Copy.svg"></img>
+					<img src={chevronDown}></img>
 				</div>
 			</div>
 		</>
